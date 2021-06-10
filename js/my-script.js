@@ -18,7 +18,7 @@ function generateNumber(min,max){
    randomNum = Math.floor(Math.random() * (max - min + 1) + min);
    return randomNum;
 }
-var randomizeNum = generateNumber(1,100);
+var randomizeNum = generateNumber(1,100) ;
 
 
 console.log(randomizeNum);
